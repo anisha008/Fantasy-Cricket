@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>861</width>
+    <height>726</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);
+background-color: rgb(255, 85, 255);
+background-color: rgb(255, 170, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>821</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_10">
+       <property name="font">
+        <font>
+         <family>MV Boli</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(85, 0, 0);
+background-color: rgb(0, 255, 255);
+background-color: rgb(170, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Points available</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_11">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>##</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_12">
+       <property name="font">
+        <font>
+         <family>MV Boli</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(85, 0, 0);
+background-color: rgb(170, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Points used</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_13">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>##</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>821</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);
+border-color: rgb(85, 0, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>Rockwell Condensed</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Batsamn(BAT)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>##</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <family>Rockwell Condensed</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Bowler(BOW)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>##</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QLabel" name="label_6">
+       <property name="font">
+        <font>
+         <family>Rockwell Condensed</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>All Rounder</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="6">
+      <widget class="QLabel" name="label_8">
+       <property name="font">
+        <font>
+         <family>Rockwell Condensed</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Wicket Keeper</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="7">
+      <widget class="QLabel" name="label_9">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>##</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="2">
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>Palatino Linotype</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>Your Selection</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QLabel" name="label_7">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>##</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>821</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QListWidget" name="listWidget_2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QListWidget" name="listWidget">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>401</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>BAT</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_3">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>BOW</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>AR</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_4">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>WK</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>180</y>
+      <width>401</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLabel" name="label_15">
+       <property name="font">
+        <font>
+         <family>MV Boli</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(170, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Team Name :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_14">
+       <property name="font">
+        <font>
+         <family>Palatino Linotype</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Displayed Here</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>861</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuManage_Team">
+    <property name="title">
+     <string>Manage Team</string>
+    </property>
+    <addaction name="actionNEW_TEAM"/>
+    <addaction name="actionOPEN_TEAM"/>
+    <addaction name="actionSAVE_TEAM"/>
+    <addaction name="actionEVALUATE_TEAM"/>
+   </widget>
+   <addaction name="menuManage_Team"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNEW_TEAM">
+   <property name="text">
+    <string>NEW TEAM</string>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionOPEN_TEAM">
+   <property name="text">
+    <string>OPEN TEAM</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionSAVE_TEAM">
+   <property name="text">
+    <string>SAVE TEAM</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionEVALUATE_TEAM">
+   <property name="text">
+    <string>EVALUATE TEAM</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
